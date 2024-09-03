@@ -1,0 +1,10 @@
+.game-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.game-card{
+    width: 300px;
+    margin: 15px;
+}
