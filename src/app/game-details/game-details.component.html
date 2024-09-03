@@ -1,0 +1,10 @@
+<div *ngIf="game">
+    <div [@fadeIn]>
+      <mat-card>
+         <img mat-card-image [src]="game.imageUrl" alt="{{ game.name }}">
+         <mat-card-title>{{ game.name }}</mat-card-title>
+         <mat-card-content>{{ game.description }}</mat-card-content>
+         <mat-card-content>{{ game.genre }}</mat-card-content>
+      </mat-card>
+    </div>
+</div>

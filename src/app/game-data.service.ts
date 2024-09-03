@@ -13,7 +13,7 @@ export class GameDataService {
       id: 1,
       name: 'Space Adventure',
       description: 'Explore the galaxy and discover new planets!',
-      imageUrl: 'assets/space-adventure.jpg',
+      imageUrl: 'space-adventure.jpg',
       genre: 'Adventure',
       releaseDate: '2022-01-01'
     },
@@ -21,7 +21,7 @@ export class GameDataService {
       id: 2,
       name: 'Mystery Mansion',
       description: 'Solve puzzles in a haunted mansion.',
-      imageUrl: 'assets/mystery-mansion.jpg',
+      imageUrl: 'mystery-mansion.jpg',
       genre: 'Puzzle',
       releaseDate: '2023-05-15'
     },
@@ -29,7 +29,7 @@ export class GameDataService {
       id: 3,
       name: 'Minecraft',
       description: 'Build your own city',
-      imageUrl: '../src/app/assets/minecraft.jpg',
+      imageUrl: 'minecraft.jpg',
       genre: 'Adventure',
       releaseDate: '2017-05-17'
     },
